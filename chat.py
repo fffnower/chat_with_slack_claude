@@ -3,9 +3,9 @@ from slack import WebClient
 from slack.errors import SlackApiError
 
 # User OAuth Token
-userOAuthToken = 'xoxp-5152878191811-5176692665200-5222232003411-c43a8e0715b41247deb60740ddbbd460'
+userOAuthToken = ''
 # 频道ID
-channel_id = 'D054VJKSSD7'
+channel_id = ''
 # 连接slack
 client = WebClient(token=userOAuthToken)
 
@@ -26,12 +26,9 @@ def get_new_msg():
     return new_msg['messages'][idx]['text']
 
 def get_user_input():
-    global flag
     print('You:')
     lines = []
-    # 空输入不执行
     while not lines:
-        # 两次回车尝试输入
         while True:
             line = input()
             if line == "":
@@ -64,7 +61,7 @@ def get_print_new_msg(message):
         if new_msg == '_Typing…_': 
             time.sleep(time_step)
             continue
-        # 开始回复
+        # 开始回复，逐步打印
         if new_msg.endswith('Typing…_'):
             print(new_msg[len_new_msg:-11], end='')
             len_new_msg = len(new_msg)-11
@@ -74,6 +71,7 @@ def get_print_new_msg(message):
             break
     return new_msg[1:]
 
+# 时间戳
 last_message_timestamp = None
 # 主程序
 def chat():
