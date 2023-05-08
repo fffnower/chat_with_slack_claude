@@ -37,7 +37,7 @@ def get_user_input():
     return "\n".join(lines)
 
 def get_print_new_msg(message):
-    global last_message_timestamp
+    global last_message_timestamp, time_step
     print('Claude:')
 
     # 发送到指定频道，更新时间戳
@@ -51,8 +51,6 @@ def get_print_new_msg(message):
     time.sleep(1)
     
     # 捕获最新的回答
-    # 设置更新回复时间间隔
-    time_step = 0.5
     len_new_msg = 1
     while True:
         # 更新回复
@@ -73,6 +71,8 @@ def get_print_new_msg(message):
 
 # 时间戳
 last_message_timestamp = None
+# 更新回复的时间间隔
+time_step = 0.5
 # 主程序
 def chat():
     while True:
