@@ -28,8 +28,7 @@ users:read
 ```
 - 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
 
-**你的 User OAuth Token：**
-![image](https://user-images.githubusercontent.com/32289652/236884379-b06af9c5-913e-4386-8454-286d60c34c57.png)
+- **你的 User OAuth Token：** ![image](https://user-images.githubusercontent.com/32289652/236884379-b06af9c5-913e-4386-8454-286d60c34c57.png)
 
 ---
 
@@ -37,5 +36,5 @@ users:read
 网页打开与Claude聊天的界面，此时网址如下：
 https://app.slack.com/client/字符串1/字符串2
 
-**你的 频道ID：**
-字符串2
+- **你的 频道ID：** 字符串2
+
