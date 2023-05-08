@@ -7,10 +7,9 @@ ClaudeID
 网页打开与Claude聊天的界面，此时网址如下：
 https://app.slack.com/client/字符串1/字符串2
 您需要记下：字符串2
-
-> 【Create an app】
-> 主页看见Your Apps并弹出窗口【Create an app】 〉》 点击【From scratch】
-> 填写app名称以及选择工作空间（例：name: Bot, workspace: chat） 〉》 点击【Create App】
+1. 获取 User OAuth Token
+> 进入网址：https://api.slack.com/ --> 点击右上角的Your apps --> 弹出窗口【Create an app】 --> 点击【From scratch】
+> 填写app名称以及选择工作空间（例：name: Bot, workspace: chat） --> 点击【Create App】
 > 点击左侧边栏上的【OAuth & Permissions】 〉》 下拉至【Scopes】卡片，在 【User Token Scopes】 项下添加权限，如下：
 ```
 channels:history
@@ -29,18 +28,15 @@ users:read
 ```
 > 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
 
-至此，获得拥有一定权限的user-token
+你的 User OAuth Token：
 ![image](https://user-images.githubusercontent.com/32289652/236881898-383112da-0078-464d-899a-70a7a5d11923.png)
 
 
 获得个人User OAuth Token的方法
 
 1. 进入这个网址：https://api.slack.com/
-
 2. 点击右上角的Your apps
-
 3. 点击 Create an App，选择第二个From an app manifest
-
 4. 选择自己工作区，然后下一步的配置我选择的默认(这一步也许很重要，但不会影响到我想实现的功能，或许想要实现更复杂功能的时候要改这个配置)
 
 5. 创建成功后会进入下面这个页面，继续往下滚动会看到Bots这个选项，看到之后点击进入
