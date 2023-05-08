@@ -1,8 +1,19 @@
 # chat_with_slack_claude
 
-你需要先做一些设置，
+你需要安装一些库:
 
-并获取一些参数用来调用slack的api：
+```
+pip install slack
+pip install slackclient
+```
+
+你需要在api.slack.com上做一些设置，并获取一些参数用来调用slack的api；
+
+你需要网页端访问与Claude的聊天，并获取一些参数用来调用slack的api。
+
+你需要将获取的参数，填入chat.py对应的位置（见注释）
+
+请注意，你无法使用 “斜杠命令”，这不是bug，参考 https://api.slack.com/interactivity/slash-commands
 
 ---
 
