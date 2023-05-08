@@ -13,7 +13,7 @@
 
 - 点击左侧边栏上的【OAuth & Permissions】 --> 下拉至【Scopes】卡片 --> 【User Token Scopes】 项下添加权限，如下：
 
--- channels:history
+= channels:history
 -- channels:read
 chat:write
 files:write
@@ -26,7 +26,6 @@ mpim:history
 mpim:read
 team:read
 users:read
-```
 
 - 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
 
