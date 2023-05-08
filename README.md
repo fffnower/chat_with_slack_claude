@@ -13,7 +13,7 @@ pip install slackclient
 
 你需要将获取的参数，填入chat.py对应的位置（见注释）
 
-请注意，你无法使用 “斜杠命令”，这不是bug，参考 https://api.slack.com/interactivity/slash-commands
+请注意，你无法使用 “斜杠命令”，详见 https://api.slack.com/interactivity/slash-commands
 
 ---
 
@@ -41,7 +41,9 @@ pip install slackclient
 
 - 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
 
-- **你的 User OAuth Token：** ![image](https://user-images.githubusercontent.com/32289652/236884379-b06af9c5-913e-4386-8454-286d60c34c57.png)
+- **你的 User OAuth Token：** 
+
+![image](https://user-images.githubusercontent.com/32289652/236893002-4ab20f60-4db8-4964-a6ce-cb5943c27c33.png)
 
 ## 2.频道ID
 
