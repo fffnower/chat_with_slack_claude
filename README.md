@@ -13,9 +13,13 @@
 - 点击左侧边栏上的【OAuth & Permissions】 --> 下拉至【Scopes】卡片 --> 【User Token Scopes】 项下添加权限，如下：
 
 > channels:history
+> 
 > channels:read
+> 
 > chat:write
+> 
 > files:write
+> 
 > groups:history
 > groups:read
 > im:history
@@ -26,12 +30,12 @@ mpim:read
 team:read
 users:read
 
-> 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
-
----
+- 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
 
 **你的 User OAuth Token：**
 ![image](https://user-images.githubusercontent.com/32289652/236884379-b06af9c5-913e-4386-8454-286d60c34c57.png)
+
+---
 
 2.频道ID
 网页打开与Claude聊天的界面，此时网址如下：
