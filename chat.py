@@ -22,8 +22,7 @@ def get_new_msg():
     new_msg = client.conversations_history(channel=channel_id, oldest=last_message_timestamp)
     # 违规警告
     # \n&gt; _*Please note:* This request may violate our Acceptable Use Policy._\n&gt; _See the <https://console.anthropic.com/docs|Claude documentation> for more information._'''
-    idx = len(new_msg['messages']) - 1
-    return new_msg['messages'][idx]['text']
+    return new_msg['messages'][-1]['text']
 
 def get_user_input():
     print('You:')
