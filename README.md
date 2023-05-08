@@ -31,5 +31,5 @@ users:read
 2.频道ID
 网页打开与Claude聊天的界面，此时网址如下：
 https://app.slack.com/client/字符串1/字符串2
-**你的 频道ID：
+**你的 频道ID：**
 字符串2
