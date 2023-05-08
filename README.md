@@ -6,7 +6,7 @@
 
 ---
 
-1. 获取 User OAuth Token
+## 1. 获取 User OAuth Token
 
 - 进入网址：https://api.slack.com/ --> 点击右上角的【Your apps】 --> 弹出窗口【Create an app】 --> 点击【From scratch】
 
@@ -32,11 +32,9 @@
 
 - **你的 User OAuth Token：** ![image](https://user-images.githubusercontent.com/32289652/236884379-b06af9c5-913e-4386-8454-286d60c34c57.png)
 
----
+## 2.频道ID
 
-2.频道ID
-
--网页打开与Claude聊天的界面，此时网址：https://app.slack.com/client/字符串1/字符串2
+- 网页打开与Claude聊天的界面，此时网址：https://app.slack.com/client/字符串1/字符串2
 
 - **你的 频道ID：** 字符串2
 
