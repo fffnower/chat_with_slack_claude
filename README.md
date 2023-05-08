@@ -13,8 +13,8 @@
 
 - 点击左侧边栏上的【OAuth & Permissions】 --> 下拉至【Scopes】卡片 --> 【User Token Scopes】 项下添加权限，如下：
 
-= channels:history
--- channels:read
+  - channels:history
+  - channels:read
 chat:write
 files:write
 groups:history
