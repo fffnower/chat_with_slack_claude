@@ -51,11 +51,11 @@ def get_print_new_msg(message):
     time.sleep(1)
     
     # 捕获最新的回答
-    # 更新回答时间间隔
+    # 设置更新回复时间间隔
     time_step = 0.5
     len_new_msg = 1
     while True:
-        # 更新答案
+        # 更新回复
         new_msg = get_new_msg()
         # 未回复
         if new_msg == '_Typing…_': 
