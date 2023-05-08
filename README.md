@@ -7,6 +7,7 @@
 ---
 
 1. 获取 User OAuth Token
+
 - 进入网址：https://api.slack.com/ --> 点击右上角的【Your apps】 --> 弹出窗口【Create an app】 --> 点击【From scratch】
 
 - 填写app名称以及选择工作空间（例：name: Bot, workspace: chat） --> 点击【Create App】
@@ -15,17 +16,17 @@
 
   - channels:history
   - channels:read
-chat:write
-files:write
-groups:history
-groups:read
-im:history
-im:read
-im:write
-mpim:history
-mpim:read
-team:read
-users:read
+  - chat:write
+  - files:write
+  - groups:history
+  - groups:read
+  - im:history
+  - im:read
+  - im:write
+  - mpim:history
+  - mpim:read
+  - team:read
+  - users:read
 
 - 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
 
