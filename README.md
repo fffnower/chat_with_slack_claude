@@ -6,11 +6,11 @@
 ---
 
 1. 获取 User OAuth Token
-> 进入网址：https://api.slack.com/ --> 点击右上角的Your apps --> 弹出窗口【Create an app】 --> 点击【From scratch】
+- 进入网址：https://api.slack.com/ --> 点击右上角的Your apps --> 弹出窗口【Create an app】 --> 点击【From scratch】
 
-> 填写app名称以及选择工作空间（例：name: Bot, workspace: chat） --> 点击【Create App】
+- 填写app名称以及选择工作空间（例：name: Bot, workspace: chat） --> 点击【Create App】
 
-> 点击左侧边栏上的【OAuth & Permissions】 --> 下拉至【Scopes】卡片 --> 【User Token Scopes】 项下添加权限，如下：
+- 点击左侧边栏上的【OAuth & Permissions】 --> 下拉至【Scopes】卡片 --> 【User Token Scopes】 项下添加权限，如下：
 
 > channels:history
 > channels:read
