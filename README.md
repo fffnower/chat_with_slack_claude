@@ -9,13 +9,10 @@ https://app.slack.com/client/字符串1/字符串2
 您需要记下：字符串2
 
 > 【Create an app】
-
 > 主页看见Your Apps并弹出窗口【Create an app】 〉》 点击【From scratch】
-
 > 填写app名称以及选择工作空间（例：name: Bot, workspace: chat） 〉》 点击【Create App】
-
 > 点击左侧边栏上的【OAuth & Permissions】 〉》 下拉至【Scopes】卡片，在 【User Token Scopes】 项下添加权限，如下：
-
+```
 channels:history
 channels:read
 chat:write
@@ -29,7 +26,7 @@ mpim:history
 mpim:read
 team:read
 users:read
-
+```
 > 回到顶部【OAuth Tokens for Your Workspace】栏，点击【Install to Workspace】，然后确认授权即可
 
 至此，获得拥有一定权限的user-token
