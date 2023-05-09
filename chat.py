@@ -46,9 +46,7 @@ def get_print_new_msg(message):
         print(f"Error sending message: {e}")
     last_message_timestamp = response['ts']
 
-    # 时间更新，避免与时间戳相同
     time.sleep(1)
-    
     # 捕获最新的回答
     len_new_msg = 1
     while True:
