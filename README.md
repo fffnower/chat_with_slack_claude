@@ -1,3 +1,5 @@
+# 已无法使用
+
 # chat_with_slack_claude
 
 你需要安装一些库:
